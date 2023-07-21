@@ -1,3 +1,20 @@
+/* VARIABLES */
+
+:root {
+  /* COLORS */
+
+  /* PRIMARY */
+
+  --clr-pink-400: 322 100% 66%;
+  --clr-pink-300: 321 100% 78%;
+  --clr-red-400: 0 100% 63%;
+
+  /* NEUTRAL */
+
+  --clr-cyan-900: 192 100% 9%;
+  --clr-blue-50: 207 100% 98%;
+}
+
 /* RESET */
 
 /* https://andy-bell.co.uk/a-modern-css-reset */
