@@ -13,6 +13,15 @@
 
   --clr-cyan-900: 192 100% 9%;
   --clr-blue-50: 207 100% 98%;
+
+  /* FONTS */
+
+  --ff-poppins: 'Poppins', sans-serif;
+  --ff-open-sans: 'Open Sans', sans-serif;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
 }
 
 /* RESET */
