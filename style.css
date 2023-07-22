@@ -111,3 +111,34 @@ body {
   padding-inline: 1.5em;
   margin-inline: auto;
 }
+
+/* HEADER */
+
+.header {
+  margin-top: 1.31em;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-wrapper {
+  max-width: 6em;
+}
+
+.header__cta {
+  font-size: 0.625rem;
+  text-transform: capitalize;
+  color: hsl(var(--clr-pink-400));
+  padding: 0.5em 1.7em;
+  border: 1px solid;
+  border-radius: 5em;
+  outline: transparent;
+  transition: color 0.15s ease-in-out;
+}
+
+.header__cta:where(:hover, :focus-visible) {
+  color: hsl(var(--clr-pink-300));
+}
