@@ -96,3 +96,18 @@ picture {
   white-space: nowrap;
   border-width: 0;
 }
+
+/* BASE */
+
+body {
+  font-family: var(--ff-open-sans);
+  text-align: center;
+  color: hsl(var(--clr-cyan-900));
+}
+
+.container {
+  width: 100%;
+  max-width: 81.125em;
+  padding-inline: 1.5em;
+  margin-inline: auto;
+}
