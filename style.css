@@ -344,6 +344,7 @@ button {
 .section__desc {
   font-size: 0.875rem;
   padding-inline: 0.29em;
+  margin-top: 1em;
 }
 
 .section-one-col .section__title {
