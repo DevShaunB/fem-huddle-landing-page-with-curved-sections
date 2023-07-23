@@ -426,4 +426,8 @@ strong,
   .section:nth-of-type(4)::after {
     background-image: url('./images/bg-section-bottom-desktop-2.svg');
   }
+
+  .footer::before {
+    background-image: url('./images/bg-footer-top-desktop.svg');
+  }
 }
