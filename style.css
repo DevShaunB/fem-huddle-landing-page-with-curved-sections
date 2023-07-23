@@ -98,6 +98,14 @@ picture {
   border-width: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
 .bg-blue-50 {
   background-color: hsl(var(--clr-blue-50));
 }
@@ -130,7 +138,6 @@ picture {
 
 body {
   font-family: var(--ff-open-sans);
-  text-align: center;
 }
 
 h1,
@@ -320,7 +327,6 @@ strong,
 .footer {
   margin-top: 8.3em;
   position: relative;
-  text-align: start;
 }
 
 .footer::before {
