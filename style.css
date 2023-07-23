@@ -292,7 +292,8 @@ button {
 }
 
 .section:nth-of-type(even)::before,
-.section:nth-of-type(even)::after {
+.section:nth-of-type(even)::after,
+.footer::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -302,7 +303,8 @@ button {
   background-repeat: no-repeat;
 }
 
-.section:nth-of-type(even)::before {
+.section:nth-of-type(even)::before,
+.footer::before {
   bottom: 100%;
   background-position: bottom;
 }
@@ -358,14 +360,7 @@ button {
 }
 
 .footer::before {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  background: url('./images/bg-footer-top-mobile.svg') no-repeat bottom;
-  z-index: -1;
+  background-image: url('./images/bg-footer-top-mobile.svg');
 }
 
 .footer .container {
