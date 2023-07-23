@@ -114,6 +114,14 @@ picture {
   text-transform: capitalize;
 }
 
+.line-height-150 {
+  line-height: 1.5;
+}
+
+.line-height-170 {
+  line-height: 1.7;
+}
+
 .bg-blue-50 {
   background-color: hsl(var(--clr-blue-50));
 }
@@ -252,7 +260,6 @@ button {
 .hero__desc {
   max-width: 40em;
   font-size: 0.875rem;
-  line-height: 1.5;
   margin: 1.375em auto 3.43em;
 }
 
@@ -336,7 +343,6 @@ button {
 
 .section__desc {
   font-size: 0.875rem;
-  line-height: 1.5;
   padding-inline: 0.29em;
 }
 
@@ -373,7 +379,6 @@ button {
 
 .footer__newsletter-desc {
   font-size: 0.875rem;
-  line-height: 1.7;
   letter-spacing: 0.018em;
   padding-inline: 0.286em;
 }
@@ -410,7 +415,6 @@ button {
 
 .footer__contact-desc {
   font-size: 0.875rem;
-  line-height: 1.7;
   letter-spacing: 0.018em;
   margin-bottom: 3.07em;
 }
