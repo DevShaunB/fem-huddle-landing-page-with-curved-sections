@@ -164,6 +164,7 @@ strong,
 a,
 button {
   outline: transparent;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
 .container {
@@ -178,7 +179,6 @@ button {
   padding: 1em 3.3em;
   border-radius: 5em;
   box-shadow: 0 0.35em 0.35em hsl(var(--clr-cyan-900) / 0.15);
-  transition: background-color 0.15s ease-in-out;
 }
 
 .cta:where(:hover, :focus-visible) {
@@ -206,7 +206,6 @@ button {
   padding: 0.5em 1.7em;
   border: 1px solid;
   border-radius: 5em;
-  transition: color 0.15s ease-in-out;
 }
 
 .header__cta:where(:hover, :focus-visible) {
@@ -419,10 +418,6 @@ button {
   display: flex;
   gap: 0.6em;
   font-size: 1.71rem;
-}
-
-.footer__contact-social-link {
-  transition: color 0.15s ease-in-out;
 }
 
 .footer__contact-social-link:where(:hover, :focus-visible) {
