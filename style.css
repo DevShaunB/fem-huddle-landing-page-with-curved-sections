@@ -146,6 +146,31 @@ picture {
   border-radius: 10em;
 }
 
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 /* BASE */
 
 body {
@@ -194,12 +219,6 @@ button {
   margin-top: 1.31em;
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .header__logo-wrapper {
   max-width: 6em;
 }
@@ -243,10 +262,6 @@ button {
 }
 
 .hero__stats-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 6em;
 }
 
@@ -259,7 +274,6 @@ button {
 }
 
 .hero__stats-info strong {
-  display: block;
   font-size: 3.75rem;
   margin-bottom: 0.133em;
 }
@@ -349,8 +363,6 @@ button {
 
 .footer .container {
   padding-block: 3.69em 2.5em;
-  display: flex;
-  flex-direction: column;
   gap: 6.5em;
 }
 
@@ -406,8 +418,6 @@ button {
 .footer__contact-phone,
 .footer__contact-email {
   font-size: 0.875rem;
-  display: flex;
-  align-items: center;
   gap: 1.36em;
   margin-bottom: 1.5em;
 }
@@ -417,7 +427,6 @@ button {
 }
 
 .footer__contact-social-list {
-  display: flex;
   gap: 0.6em;
   font-size: 1.71rem;
 }

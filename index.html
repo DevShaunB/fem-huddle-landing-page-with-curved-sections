@@ -33,7 +33,7 @@
   </head>
   <body class="text-center text-cyan-900">
     <header class="header">
-      <div class="container">
+      <div class="container flex align-center justify-between">
         <div class="header__logo-wrapper">
           <img src="./images/logo.svg" alt="Huddle" class="header__logo" />
         </div>
@@ -62,7 +62,7 @@
           </div>
           <section class="hero__stats">
             <h2 class="sr-only">Statistics</h2>
-            <ul role="list" class="hero__stats-list">
+            <ul role="list" class="hero__stats-list flex flex-col flex-center">
               <li class="hero__stats-item">
                 <div class="hero__stats-icon-wrapper">
                   <img
@@ -72,7 +72,7 @@
                   />
                 </div>
                 <p class="hero__stats-info capitalize text-cyan-900/60">
-                  <strong class="text-cyan-900">1.4k+</strong> communities
+                  <strong class="block text-cyan-900">1.4k+</strong> communities
                   formed
                 </p>
               </li>
@@ -85,7 +85,8 @@
                   />
                 </div>
                 <p class="hero__stats-info capitalize text-cyan-900/60">
-                  <strong class="text-cyan-900">2.7m+</strong> messages sent
+                  <strong class="block text-cyan-900">2.7m+</strong> messages
+                  sent
                 </p>
               </li>
             </ul>
@@ -165,7 +166,7 @@
     </main>
 
     <footer class="footer text-start bg-cyan-900 text-blue-50">
-      <div class="container">
+      <div class="container flex flex-col">
         <div class="footer__newsletter">
           <h2 class="footer__newsletter-title uppercase">Newsletter</h2>
           <p class="footer__newsletter-desc">
@@ -187,7 +188,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
             nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
           </p>
-          <div class="footer__contact-phone">
+          <div class="footer__contact-phone flex align-center">
             <div class="footer__contact-phone-icon-wrapper">
               <img
                 src="./images/icon-phone.svg"
@@ -197,7 +198,7 @@
             </div>
             <p class="footer__contact-phone-info">Phone: +1-543-123-4567</p>
           </div>
-          <div class="footer__contact-email">
+          <div class="footer__contact-email flex align-center">
             <div class="footer__contact-email-icon-wrapper">
               <img
                 src="./images/icon-email.svg"
@@ -209,7 +210,10 @@
           </div>
           <section class="footer__contact-social">
             <h2 class="sr-only">Social links</h2>
-            <ul role="list" class="footer__contact-social-list">
+            <ul
+              role="list"
+              class="footer__contact-social-list flex align-center"
+            >
               <li class="footer__contact-social-item">
                 <a href="/" class="footer__contact-social-link"
                   ><i class="fa-brands fa-square-facebook"></i
