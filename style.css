@@ -282,6 +282,28 @@ body {
   padding-inline: 0.29em;
 }
 
+.section-one-col .section__title {
+  font-size: 1.5rem;
+  margin-bottom: 1.54em;
+}
+
+.section__cta {
+  font-size: 0.75rem;
+  font-weight: var(--fw-bold);
+  text-transform: capitalize;
+  padding: 1em 3.3em;
+  background-color: hsl(var(--clr-pink-400));
+  color: hsl(var(--clr-blue-50));
+  border-radius: 5em;
+  box-shadow: 0 0.35em 0.35em hsl(var(--clr-cyan-900) / 0.15);
+  outline: transparent;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.section__cta:where(:hover, :focus-visible) {
+  background-color: hsl(var(--clr-pink-300));
+}
+
 @media screen and (min-width: 23.5em) {
   .section:nth-of-type(2)::before {
     background-image: url('./images/bg-section-top-desktop-1.svg');
