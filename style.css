@@ -153,6 +153,11 @@ strong,
   font-weight: var(--fw-bold);
 }
 
+a,
+button {
+  outline: transparent;
+}
+
 .container {
   width: 100%;
   max-width: 81.125em;
@@ -166,7 +171,6 @@ strong,
   padding: 1em 3.3em;
   border-radius: 5em;
   box-shadow: 0 0.35em 0.35em hsl(var(--clr-cyan-900) / 0.15);
-  outline: transparent;
   transition: background-color 0.15s ease-in-out;
 }
 
@@ -196,7 +200,6 @@ strong,
   padding: 0.5em 1.7em;
   border: 1px solid;
   border-radius: 5em;
-  outline: transparent;
   transition: color 0.15s ease-in-out;
 }
 
@@ -375,7 +378,6 @@ strong,
   border-radius: 0.375em;
   color: inherit;
   border: none;
-  outline: transparent;
 }
 
 .footer__newsletter-form button:where(:hover, :focus-visible) {
