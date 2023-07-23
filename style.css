@@ -97,12 +97,39 @@ picture {
   border-width: 0;
 }
 
+.bg-blue-50 {
+  background-color: hsl(var(--clr-blue-50));
+}
+
+.bg-pink-400 {
+  background-color: hsl(var(--clr-pink-400));
+}
+
+.bg-cyan-900 {
+  background-color: hsl(var(--clr-cyan-900));
+}
+
+.text-blue-50 {
+  color: hsl(var(--clr-blue-50));
+}
+
+.text-pink-400 {
+  color: hsl(var(--clr-pink-400));
+}
+
+.text-cyan-900 {
+  color: hsl(var(--clr-cyan-900));
+}
+
+.text-cyan-900\/60 {
+  color: hsl(var(--clr-cyan-900) / 0.6);
+}
+
 /* BASE */
 
 body {
   font-family: var(--ff-open-sans);
   text-align: center;
-  color: hsl(var(--clr-cyan-900));
 }
 
 .container {
@@ -131,7 +158,6 @@ body {
 .header__cta {
   font-size: 0.625rem;
   text-transform: capitalize;
-  color: hsl(var(--clr-pink-400));
   padding: 0.5em 1.7em;
   border: 1px solid;
   border-radius: 5em;
@@ -172,8 +198,6 @@ body {
   font-weight: var(--fw-bold);
   text-transform: capitalize;
   padding: 1em 3.3em;
-  background-color: hsl(var(--clr-pink-400));
-  color: hsl(var(--clr-blue-50));
   border-radius: 5em;
   box-shadow: 0 0.35em 0.35em hsl(var(--clr-cyan-900) / 0.15);
   outline: transparent;
@@ -204,7 +228,6 @@ body {
 .hero__stats-info {
   font-size: 0.94rem;
   text-transform: capitalize;
-  color: hsl(var(--clr-cyan-900) / 0.6);
 }
 
 .hero__stats-info strong {
@@ -212,17 +235,12 @@ body {
   font-size: 3.75rem;
   font-weight: var(--fw-bold);
   margin-bottom: 0.133em;
-  color: hsl(var(--clr-cyan-900));
 }
 
 .section {
+  position: relative;
   padding-block: 5em 3.375em;
   margin-bottom: 7.25em;
-}
-
-.section:nth-of-type(even) {
-  position: relative;
-  background-color: hsl(var(--clr-blue-50));
 }
 
 .section:nth-of-type(even)::before,
@@ -292,8 +310,6 @@ body {
   font-weight: var(--fw-bold);
   text-transform: capitalize;
   padding: 1em 3.3em;
-  background-color: hsl(var(--clr-pink-400));
-  color: hsl(var(--clr-blue-50));
   border-radius: 5em;
   box-shadow: 0 0.35em 0.35em hsl(var(--clr-cyan-900) / 0.15);
   outline: transparent;
@@ -306,8 +322,6 @@ body {
 
 .footer {
   margin-top: 8.3em;
-  background-color: hsl(var(--clr-cyan-900));
-  color: hsl(var(--clr-blue-50));
   position: relative;
   text-align: start;
 }
@@ -358,8 +372,7 @@ body {
   margin-top: 1em;
   padding: 0.75em 2.56em;
   border-radius: 0.375em;
-  background-color: hsl(var(--clr-pink-400));
-  color: hsl(var(--clr-blue-50));
+  color: inherit;
   border: none;
   outline: transparent;
 }
