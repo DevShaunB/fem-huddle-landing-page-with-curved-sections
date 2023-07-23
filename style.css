@@ -12,6 +12,7 @@
   /* NEUTRAL */
 
   --clr-cyan-900: 192 100% 9%;
+  --clr-blue-200: 197 71% 73%;
   --clr-blue-50: 207 100% 98%;
 
   /* FONTS */
@@ -408,6 +409,14 @@ strong,
   display: flex;
   gap: 0.6em;
   font-size: 1.71rem;
+}
+
+.footer__contact-social-link {
+  transition: color 0.15s ease-in-out;
+}
+
+.footer__contact-social-link:where(:hover, :focus-visible) {
+  color: hsl(var(--clr-blue-200));
 }
 
 @media screen and (min-width: 23.5em) {
