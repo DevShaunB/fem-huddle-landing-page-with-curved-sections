@@ -132,6 +132,19 @@ body {
   text-align: center;
 }
 
+h1,
+h2 {
+  font-family: var(--ff-poppins);
+}
+
+h1,
+h2,
+button,
+strong,
+.cta {
+  font-weight: var(--fw-bold);
+}
+
 .container {
   width: 100%;
   max-width: 81.125em;
@@ -182,7 +195,7 @@ body {
 }
 
 .hero__title {
-  font: var(--fw-bold) 1.5rem var(--ff-poppins);
+  font-size: 1.5rem;
   text-transform: capitalize;
 }
 
@@ -195,7 +208,6 @@ body {
 
 .hero__cta {
   font-size: 0.75rem;
-  font-weight: var(--fw-bold);
   text-transform: capitalize;
   padding: 1em 3.3em;
   border-radius: 5em;
@@ -233,7 +245,6 @@ body {
 .hero__stats-info strong {
   display: block;
   font-size: 3.75rem;
-  font-weight: var(--fw-bold);
   margin-bottom: 0.133em;
 }
 
@@ -290,7 +301,7 @@ body {
 }
 
 .section__title {
-  font: var(--fw-bold) 1.25rem var(--ff-poppins);
+  font-size: 1.25rem;
   text-transform: capitalize;
 }
 
@@ -307,7 +318,6 @@ body {
 
 .section__cta {
   font-size: 0.75rem;
-  font-weight: var(--fw-bold);
   text-transform: capitalize;
   padding: 1em 3.3em;
   border-radius: 5em;
@@ -346,7 +356,6 @@ body {
 
 .footer__newsletter-title {
   font-size: 1.25rem;
-  font-weight: var(--fw-bold);
   text-transform: uppercase;
   margin-bottom: 0.85em;
 }
@@ -368,7 +377,6 @@ body {
 
 .footer__newsletter-form button {
   font-size: 1rem;
-  font-weight: var(--fw-bold);
   margin-top: 1em;
   padding: 0.75em 2.56em;
   border-radius: 0.375em;
