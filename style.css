@@ -106,6 +106,14 @@ picture {
   text-align: start;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 .bg-blue-50 {
   background-color: hsl(var(--clr-blue-50));
 }
@@ -167,7 +175,6 @@ button {
 
 .cta {
   font-size: 0.75rem;
-  text-transform: capitalize;
   padding: 1em 3.3em;
   border-radius: 5em;
   box-shadow: 0 0.35em 0.35em hsl(var(--clr-cyan-900) / 0.15);
@@ -196,7 +203,6 @@ button {
 
 .header__cta {
   font-size: 0.625rem;
-  text-transform: capitalize;
   padding: 0.5em 1.7em;
   border: 1px solid;
   border-radius: 5em;
@@ -221,7 +227,6 @@ button {
 
 .hero__title {
   font-size: 1.5rem;
-  text-transform: capitalize;
 }
 
 .hero__desc {
@@ -250,7 +255,6 @@ button {
 
 .hero__stats-info {
   font-size: 0.94rem;
-  text-transform: capitalize;
 }
 
 .hero__stats-info strong {
@@ -313,7 +317,6 @@ button {
 
 .section__title {
   font-size: 1.25rem;
-  text-transform: capitalize;
 }
 
 .section__desc {
@@ -352,7 +355,6 @@ button {
 
 .footer__newsletter-title {
   font-size: 1.25rem;
-  text-transform: uppercase;
   margin-bottom: 0.85em;
 }
 
