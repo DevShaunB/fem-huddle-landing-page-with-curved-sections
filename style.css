@@ -368,6 +368,41 @@ body {
   background-color: hsl(var(--clr-pink-300));
 }
 
+.footer__logo-wrapper {
+  max-width: 12.5em;
+  margin-bottom: 1em;
+}
+
+.footer__img {
+  filter: brightness(0) invert(1);
+}
+
+.footer__contact-desc {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  letter-spacing: 0.018em;
+  margin-bottom: 3.07em;
+}
+
+.footer__contact-phone,
+.footer__contact-email {
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 1.36em;
+  margin-bottom: 1.5em;
+}
+
+.footer__contact-social {
+  margin-top: 1.75em;
+}
+
+.footer__contact-social-list {
+  display: flex;
+  gap: 0.6em;
+  font-size: 1.71rem;
+}
+
 @media screen and (min-width: 23.5em) {
   .section:nth-of-type(2)::before {
     background-image: url('./images/bg-section-top-desktop-1.svg');
