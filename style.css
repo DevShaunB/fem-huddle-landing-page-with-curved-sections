@@ -377,9 +377,13 @@ button {
   margin-bottom: 0.85em;
 }
 
-.footer__newsletter-desc {
+.footer__newsletter-desc,
+.footer__contact-desc {
   font-size: 0.875rem;
   letter-spacing: 0.018em;
+}
+
+.footer__newsletter-desc {
   padding-inline: 0.286em;
 }
 
@@ -414,8 +418,6 @@ button {
 }
 
 .footer__contact-desc {
-  font-size: 0.875rem;
-  letter-spacing: 0.018em;
   margin-bottom: 3.07em;
 }
 
