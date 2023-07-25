@@ -389,6 +389,25 @@ button {
   margin-top: 2.286em;
   padding: 1.07em;
   border-radius: 0.43em;
+  position: relative;
+}
+
+.footer__newsletter-form-error {
+  display: none;
+  font-size: 0.75rem;
+  margin-top: 0.5em;
+  color: hsl(var(--clr-red-400));
+}
+
+.footer__newsletter-form input:invalid + .footer__newsletter-form-error {
+  display: block;
+}
+
+.footer__newsletter-form
+  input:placeholder-shown
+  + .footer__newsletter-form-error,
+.footer__newsletter-form input:valid + .footer__newsletter-form-error {
+  display: none;
 }
 
 .footer__newsletter-form button {
