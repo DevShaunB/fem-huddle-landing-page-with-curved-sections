@@ -355,6 +355,8 @@ button {
   margin-bottom: 1.54em;
 }
 
+/* FOOTER */
+
 .footer {
   margin-top: 8.3em;
   position: relative;
@@ -382,12 +384,12 @@ button {
 
 .footer__newsletter-desc {
   padding-inline: 0.286em;
+  margin-bottom: 2.286em;
 }
 
 .footer__newsletter-form input {
   width: 100%;
   font-size: 0.875rem;
-  margin-top: 2.286em;
   padding: 1.07em;
   border-radius: 0.43em;
   position: relative;
@@ -577,5 +579,53 @@ button {
 
   .section-one-col .section__title {
     margin-bottom: 1em;
+  }
+
+  /* FOOTER */
+
+  .footer .container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7.6em 3em 6.4em;
+  }
+
+  .footer__logo-wrapper {
+    max-width: 15em;
+    margin-bottom: 1.625em;
+  }
+
+  .footer__newsletter-desc,
+  .footer__contact-desc {
+    max-width: 24.5em;
+  }
+
+  .footer__newsletter-desc {
+    padding: 0;
+  }
+
+  .footer__newsletter-form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2.5em;
+  }
+
+  .footer__newsletter-form button {
+    margin: 0;
+    padding: 0.8em 2.5em;
+  }
+
+  .footer__contact-desc {
+    margin-bottom: 1.78em;
+  }
+
+  .footer__contact-phone,
+  .footer__contact-email {
+    font-size: 1rem;
+    gap: 1.2em;
+    margin-bottom: 1.125em;
+  }
+
+  .footer__contact-social {
+    margin-top: 3.8em;
   }
 }
