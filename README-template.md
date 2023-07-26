@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with curved sections solution
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -8,15 +8,14 @@ This is a solution to the [Huddle landing page with curved sections challenge on
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [Reference](#reference)
+  - [Color](#color)
+  - [Typography](#typography)
+- [Run Locally](#run-locally)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,20 +28,70 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Huddle landing page with curved sections desktop screenshot](https://devshaunb.github.io/fem-huddle-landing-page-with-curved-sections/screenshots/desktop.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Huddle landing page with curved sections mobile screenshot](https://devshaunb.github.io/fem-huddle-landing-page-with-curved-sections/screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://devshaunb.github.io/fem-huddle-landing-page-with-curved-sections/](https://devshaunb.github.io/fem-huddle-landing-page-with-curved-sections/)
+
+## Reference
+
+### Color
+
+#### Primary
+
+- ![hsl(322, 100%, 66%)](https://via.placeholder.com/10/ff52bf?text=+) `Pink: hsl(322, 100%, 66%)`
+- ![hsl(321, 100%, 78%)](https://via.placeholder.com/10/ff8fd8?text=+) `Light Pink: hsl(321, 100%, 78%)`
+- ![hsl(0, 100%, 63%)](https://via.placeholder.com/10/ff4242?text=+) `Light Red: hsl(0, 100%, 63%)`
+
+#### Neutral
+
+- ![hsl(192, 100%, 9%)](https://via.placeholder.com/10/00252e?text=+) `Very Dark Cyan: hsl(192, 100%, 9%)`
+- ![hsl(207, 100%, 98%)](https://via.placeholder.com/10/f5faff?text=+) `Very Pale Blue: hsl(207, 100%, 98%)`
+
+### Typography
+
+#### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+#### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/DevShaunB/fem-huddle-landing-page-with-curved-sections.git
+```
+
+Go to the project directory
+
+```bash
+  cd fem-huddle-landing-page-with-curved-sections
+```
+
+Run `index.html`
+
+```bash
+  <browsername> index.html
+```
+
+E.g.
+
+```bash
+  firefox index.html
+```
+
+```bash
+  google-chrome index.html
+```
 
 ## My process
 
@@ -53,59 +102,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@DevShaunB](https://www.frontendmentor.io/profile/DevShaunB)
+- Twitter - [@DevShaunB](https://www.twitter.com/DevShaunB)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- [Huddle landing page with curved sections challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2) by [Frontend Mentor](https://www.frontendmentor.io/)
