@@ -206,7 +206,7 @@ button {
 
 .container {
   width: 100%;
-  max-width: 81.125em;
+  max-width: 90em;
   padding-inline: 1.5em;
   margin-inline: auto;
 }
@@ -254,12 +254,13 @@ button {
 }
 
 .hero__title {
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 4.32vw, 3rem);
 }
 
 .hero__desc {
   max-width: 40em;
-  font-size: 0.875rem;
+  font-size: clamp(0.875rem, 2.24vw, 1.25rem);
+  padding-inline: 0.4em;
   margin: 1.375em auto 3.43em;
 }
 
@@ -277,11 +278,11 @@ button {
 }
 
 .hero__stats-info {
-  font-size: 0.94rem;
+  font-size: clamp(0.94rem, 2.4vw, 1.5rem);
 }
 
 .hero__stats-info strong {
-  font-size: 3.75rem;
+  font-size: clamp(3.75rem, 9.4vw, 6rem);
   margin-bottom: 0.133em;
 }
 
@@ -483,13 +484,23 @@ button {
 
   .cta {
     font-size: 1.25rem;
-    padding: 1.56em 6.25em 1.75em;
+    padding: 1.25em 5em 1.4em;
+  }
+
+  .container {
+    width: 90%;
+    padding: 0;
   }
 
   /* HEADER */
 
   .header {
     margin-top: 5em;
+  }
+
+  .header .container {
+    width: 90%;
+    padding: 0;
   }
 
   .header__logo-wrapper {
@@ -499,5 +510,40 @@ button {
   .header__cta {
     font-size: 1rem;
     padding: 0.5em 2em 0.69em;
+  }
+
+  /* MAIN */
+
+  .main {
+    margin-top: 14.31em;
+  }
+
+  /* HERO SECTION */
+
+  .hero {
+    margin-bottom: 18.75em;
+  }
+
+  .hero .container {
+    max-width: 55em;
+    margin-inline: auto;
+  }
+
+  .hero__desc {
+    margin: 1.1em auto 2.4em;
+  }
+
+  .hero__img-wrapper {
+    max-width: 64.688em;
+    margin: 6.9em auto 7.5em;
+  }
+
+  .hero__stats-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero__stats-icon-wrapper {
+    max-width: 2.75em;
   }
 }
