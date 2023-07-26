@@ -477,3 +477,27 @@ button {
     background-image: url('./images/bg-footer-top-desktop.svg');
   }
 }
+
+@media screen and (min-width: 40em) {
+  /* BASE */
+
+  .cta {
+    font-size: 1.25rem;
+    padding: 1.56em 6.25em 1.75em;
+  }
+
+  /* HEADER */
+
+  .header {
+    margin-top: 5em;
+  }
+
+  .header__logo-wrapper {
+    max-width: 15em;
+  }
+
+  .header__cta {
+    font-size: 1rem;
+    padding: 0.5em 2em 0.69em;
+  }
+}
