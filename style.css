@@ -481,7 +481,7 @@ button {
   }
 }
 
-@media screen and (min-width: 45em) {
+@media screen and (min-width: 64em) {
   /* BASE */
 
   .cta {
