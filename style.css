@@ -570,4 +570,12 @@ button {
     text-align: start;
     margin: 0;
   }
+
+  .section__desc {
+    margin-top: 1.375em;
+  }
+
+  .section-one-col .section__title {
+    margin-bottom: 1em;
+  }
 }
