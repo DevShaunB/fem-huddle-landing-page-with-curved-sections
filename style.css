@@ -606,6 +606,7 @@ button {
   .footer__newsletter-form {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: start;
     gap: 2.5em;
   }
 
