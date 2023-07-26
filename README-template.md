@@ -34,6 +34,8 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-section-using-css-grid-and-flexbox-AxfWacr9eq](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-section-using-css-grid-and-flexbox-AxfWacr9eq)
+
 - Live Site URL: [https://devshaunb.github.io/fem-huddle-landing-page-with-curved-sections/](https://devshaunb.github.io/fem-huddle-landing-page-with-curved-sections/)
 
 ## Reference
